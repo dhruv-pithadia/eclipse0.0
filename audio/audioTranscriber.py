@@ -8,7 +8,7 @@ import queue
 logger = logging.getLogger(__name__)
 
 # Set up Google Cloud credentials
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'red-road-430907-n7-25e5a173b18e.json'
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ''
 
 class AudioTranscriber:
     def __init__(self):
